@@ -9,7 +9,6 @@ node('master') {
             doGenerateSubmoduleConfigurations: false,
             extensions: [], submoduleCfg: [],
             userRemoteConfigs: [[
-                name: 'github',
                 url: 'git@github.com:xluffy-fork/time-table.git'
             ]]
         ])
