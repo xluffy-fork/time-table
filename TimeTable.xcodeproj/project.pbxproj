@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1399B781A0D3706C033CCF4E /* Pods_TimeTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9988937007683C92E4F535 /* Pods_TimeTable.framework */; };
 		43A31993F7CAE02B2D660F8F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1AB15FF4C54E350EA36C2D8 /* QuartzCore.framework */; };
 		43C7345B29775A8EB6907185 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C773FB44C14F5720419ED00 /* AssetsLibrary.framework */; };
 		85168F0A88A2091C7DA592DD /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFA4591A3FAEA9EEDA9BE0A /* CoreText.framework */; };
@@ -35,8 +36,10 @@
 /* Begin PBXFileReference section */
 		1FD338CA72BC89084DCCA2C3 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		22E3856FBD4CB471266E6112 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		32CF39885D8AA35F39AE7520 /* Pods-TimeTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeTable.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeTable/Pods-TimeTable.release.xcconfig"; sourceTree = "<group>"; };
 		5C773FB44C14F5720419ED00 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		5EC346D7ABF9E7F3B57603EF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9F9988937007683C92E4F535 /* Pods_TimeTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AB15FF4C54E350EA36C2D8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D1B623991BC459AA006E4B0E /* TimeTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B6239C1BC459AA006E4B0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +53,7 @@
 		D1B623B31BC459AA006E4B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1B623BC1BC46336006E4B0E /* TimeTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTable.swift; sourceTree = "<group>"; };
 		DCFA4591A3FAEA9EEDA9BE0A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		EFA694A36F530FA557872C8C /* Pods-TimeTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeTable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeTable/Pods-TimeTable.debug.xcconfig"; sourceTree = "<group>"; };
 		F0D2A696EE06CB1E9246A693 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +67,7 @@
 				A3D96AAF309ABE35EAB980FF /* CoreTelephony.framework in Frameworks */,
 				D0144B1687A9C2067239E181 /* SystemConfiguration.framework in Frameworks */,
 				43A31993F7CAE02B2D660F8F /* QuartzCore.framework in Frameworks */,
+				1399B781A0D3706C033CCF4E /* Pods_TimeTable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,8 +90,18 @@
 				5EC346D7ABF9E7F3B57603EF /* CoreTelephony.framework */,
 				22E3856FBD4CB471266E6112 /* SystemConfiguration.framework */,
 				C1AB15FF4C54E350EA36C2D8 /* QuartzCore.framework */,
+				9F9988937007683C92E4F535 /* Pods_TimeTable.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B470BB2BA3DD1651A756C94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFA694A36F530FA557872C8C /* Pods-TimeTable.debug.xcconfig */,
+				32CF39885D8AA35F39AE7520 /* Pods-TimeTable.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D1B623901BC459AA006E4B0E = {
@@ -97,6 +112,7 @@
 				D1B6239A1BC459AA006E4B0E /* Products */,
 				529E3708C5EB149224BADCBD /* Frameworks */,
 				F0D2A696EE06CB1E9246A693 /* Bridging-Header.h */,
+				8B470BB2BA3DD1651A756C94 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1B623B61BC459AA006E4B0E /* Build configuration list for PBXNativeTarget "TimeTable" */;
 			buildPhases = (
+				4289BA03082FCB102EF775FD /* [CP] Check Pods Manifest.lock */,
 				D1B623951BC459AA006E4B0E /* Sources */,
 				D1B623961BC459AA006E4B0E /* Frameworks */,
 				D1B623971BC459AA006E4B0E /* Resources */,
@@ -228,6 +245,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4289BA03082FCB102EF775FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimeTable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D1B623951BC459AA006E4B0E /* Sources */ = {
@@ -369,6 +411,7 @@
 		};
 		D1B623B71BC459AA006E4B0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA694A36F530FA557872C8C /* Pods-TimeTable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -386,6 +429,7 @@
 		};
 		D1B623B81BC459AA006E4B0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32CF39885D8AA35F39AE7520 /* Pods-TimeTable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (

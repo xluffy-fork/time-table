@@ -1,0 +1,19 @@
+line_length: 160
+
+disabled_rules:
+  - function_body_length
+  - cyclomatic_complexity
+  - trailing_whitespace
+  - force_cast
+  - shorthand_operator
+  - identifier_name
+  - function_parameter_count
+  - force_try
+  - type_body_length
+  - file_length
+  - type_name
+  - nesting
+  - line_length
+  - notification_center_detachment
+  - operator_whitespace
+  - large_tuple
